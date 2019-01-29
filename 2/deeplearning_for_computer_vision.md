@@ -29,3 +29,28 @@ Generative modeling is an example of unsupervised learning. Model is just given 
 This can be done with Density estimation 
 
 * G M is important for finding the biases (debaising) and distribution
+
+#Terms
+
+Latent variables - They are illusions of what the true object that you are trying to observer. i.e a shadow of 
+a Basketball; the shadow would be the latent variable
+
+Autoencoders - Automatically encoding data. How???
+
+* A low dimensional z is needed to get rid of noise in the output data. Lets us find the most rich features of the data set. The output image will often be blurry as we lose data from putting it through such a small z, but it doesn't matter as we only care about the most important features.
+
+What is z in respect to x???
+
+* These images do not require any labels
+
+* Autoencoding is a form of compression
+
+VAE - Mu and sigma are used to create a stochastic z. Adds probability to the process of autoencoding. Why would you want or need to do this???
+
+loss function - get more info about the loss function. why is it needed where does it fit in in the big picture???
+
+Probability distribution - ???
+
+Perturbation - ???
+
+Progressive growing of GANs
